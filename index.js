@@ -18,7 +18,7 @@ const interval = function () {
     timerId = setInterval(onStartBtnClick, 1000);
   }
   started = true;
-  console.log("interval -> started", started);
+  // console.log("interval -> started", started);
 };
 
 const onStartBtnClick = function () {
